@@ -31,3 +31,7 @@ if (getnumber2 === null || !isNaN(getnumber2)){
 }else {
     document.write(getnumber2);
 }
+
+let total= getnumber1 + getnumber2;
+
+console.log('Total is ' + total);

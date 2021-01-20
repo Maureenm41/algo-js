@@ -3,7 +3,7 @@ var getshoessize = prompt("What is your shoes size ? ");
 
 if (getshoessize === null || !isNaN(getshoessize)){
     while (getshoessize !== null || isNaN(getshoessize)){
-        getshoessize = prompt("What is shoes size? ");
+        getshoessize = prompt("What is your shoes size? ");
         console.log(getName)
        if (getshoessize !== null || !isNaN(getshoessize)){
            document.write(getshoessize);
@@ -19,7 +19,7 @@ var getbirthyear = prompt("What is your birth year ? ");
 
 if (getbirthyear === null || !isNaN(getbirthyear)){
     while (getbirthyear !== null || isNaN(getbirthyear)){
-        getbirthyear = prompt("What is birth year ? ");
+        getbirthyear = prompt("What is birth your year ? ");
         console.log(getbirthyear)
        if (getbirthyear !== null || !isNaN(getbirthyear)){
            document.write(getbirthyear);
@@ -29,3 +29,5 @@ if (getbirthyear === null || !isNaN(getbirthyear)){
 }else {
     document.write(birthyear);
 }
+
+console.log(getshoes*2);

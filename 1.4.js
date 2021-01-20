@@ -21,11 +21,11 @@ var getlastname = prompt("What is your last name ? ");
 
 if (getlastname === null || !isNaN(getlastname)){
     while (getlastname !== null || isNaN(getlastname)){
-        alert("Invalid name, please try again");
+        alert("Invalid lastname, please try again");
         getlastname = prompt("What is your last name ? ");
         console.log(getlastname)
        if (getlastname!== null || !isNaN(lastname)){
-           document.write("Hello ", getName);
+           document.write(getlastame);
            break;
        }
     }

@@ -27,7 +27,24 @@ if (getbirthyear === null || !isNaN(getbirthyear)){
        }
     }
 }else {
-    document.write(birthyear);
+    document.write(getbirthyear);
 }
 
-console.log(getshoes*2);
+var x = getshoessize;
+var y = 2;
+var z = getshoessize * 2;
+
+var z = getshoessize * 2;
+var a = 5;
+var b = z + a ;
+
+
+var b = z+a;
+var c = 50 ;
+var d = b * c ;
+
+var d = b*c ;
+var e = d - getbirthyear ;
+
+var f = e + 1766 ;
+

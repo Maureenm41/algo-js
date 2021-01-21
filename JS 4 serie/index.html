@@ -15,11 +15,14 @@
 
         <script src="4.6.js"></script>
         <script>
+             "use strict";globalThis.__codeBoxId = "cm669yyodo";
+
             function factorial(a) 
             {
-                return a;
+             return a ? a * factorial(a - 2) : 2;
             }
-            factorialize(3);
+            alert( factorial(6) );
+</script>
         </script>
     </body>
 </html>

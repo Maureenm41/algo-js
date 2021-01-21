@@ -1,4 +1,4 @@
-function askTvSerie()
+function askTvSerie(name , dateOf , cast)
 {
   var serieName = prompt ("What's your favorite serie");
   var prodYear = prompt ("What's the year of production?");
@@ -11,6 +11,9 @@ function askTvSerie()
 }
 
 askTvSerie();
+
+var serie = { serieName , prodYear , castMemberName};
+console.log(serie);
 
 
 /*doesn't work like I want it to work but it kinda work*/

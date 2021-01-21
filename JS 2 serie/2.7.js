@@ -7,4 +7,6 @@ var getnumber5 = prompt ("Please, enter one number");
 
 var z = getnumber1 + getnumber2 + getnumber3 + getnumber4 + getnumber5  
 
-    document.write(z)
+document.write(z)
+
+

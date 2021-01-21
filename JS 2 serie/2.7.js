@@ -1,12 +1,10 @@
-number1 = input("Give one number ")
-number2 = input("Give one number ")
-number3 = input("Give one number ")
-number4 = input("Give one number ")
-number5 = input("Give one number ")
 
-var x = number1 + number2
-var y = x + number3
-var z = y + number4
-var a = z + number5
+var getnumber1 = prompt ("Please, enter one number");
+var getnumber2 = prompt ("Please, enter one number");
+var getnumber3 = prompt ("Please, enter one number");
+var getnumber4 = prompt ("Please, enter one number");
+var getnumber5 = prompt ("Please, enter one number");
 
-print(var a)
+var z = getnumber1 + getnumber2 + getnumber3 + getnumber4 + getnumber5  
+
+    document.write(z)

@@ -19,4 +19,4 @@ var castMemberName = prompt ("What are the cast members names?");
 
 alert(serieName);
 alert(prodYear);
-alert(castMemberName);
+alert(castMemberName);*/

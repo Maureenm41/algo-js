@@ -8,6 +8,9 @@ constructor(topLeftXPos ,topLeftYPos ,width , length)
     this.length = length ;
 }
 collides(otherRectangle)
+{
+    if (collides)
+}
 
 }
 

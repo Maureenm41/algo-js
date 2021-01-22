@@ -5,5 +5,8 @@ class circle
     radius : 360;
 
     constructor()
-    
+    move(xOffset, yOffset)
+
+    get surface ()
+    {}
 }

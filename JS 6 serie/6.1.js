@@ -1,12 +1,12 @@
 
-class circle
+/*class circle
 {
     var xPos :n;
     var yPos : n ;
     var  radius : n;
 
-    /*constructor()
-    {}*/
+    constructor()
+    {}
     move(xOffset, yOffset)
     {
         this.xOffset = 36 ;
@@ -15,4 +15,4 @@ class circle
 
     get surface ()
     {}
-}
+}*/

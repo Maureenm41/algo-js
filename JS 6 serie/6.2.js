@@ -8,7 +8,8 @@ constructor(topLeftXPos ,topLeftYPos ,width , length)
     this.length = length ;
 }
 collides(otherRectangle)
-{
-    if 
+
 }
-}
+
+let rectangle = new Rectangle (50,150,150,400);
+console.log(rectangle);

@@ -4,8 +4,13 @@ class circle
     yPos : 150px ;
     radius : 360;
 
-    constructor()
+    /*constructor()
+    {}*/
     move(xOffset, yOffset)
+    {
+        this.xOffset = ;
+        this.yOffset = ;
+    }
 
     get surface ()
     {}
